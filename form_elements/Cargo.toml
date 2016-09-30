@@ -1,0 +1,7 @@
+[package]
+name = "form_elements"
+version = "0.1.0"
+authors = ["Teguh Muhammad <mteguhasuandi@gmail.com>"]
+
+[dependencies.nickel]
+version = "*"

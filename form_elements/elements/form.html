@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html">
+    <title>{{title}}</title>
+</head>
+<body>
+    <form>
+        <p>
+            <input type="hidden" name="hidden" value="Hidden">
+        </p>
+        <p>
+            <input type="text" name="text" placeholder="Text" autofocus>
+        </p>
+        <p>
+            <input type="password" name="password" placeholder="Password">
+        </p>
+        <p>
+            <input type="email" x-moz-errormessage="Please specify a valid email address." placeholder="Email">
+        </p>
+        <p>
+            <input type="checkbox" name="checkbox" value="Checkbox"> Checkbox
+        </p>
+        <p>
+            <input type="radio" name="radio" value="radio"> Radio
+        </p>
+        <p>
+            <input type="color" name="color">
+        </p>
+        <p>
+            <input type="date" name="date">
+        </p>
+        <p>
+            <input type="number" name="number">
+        </p>
+        <p>
+            <select name="select">
+                <option value="value1">Value 1</option> 
+                <option value="value2" selected>Value 2</option>
+                <option value="value3">Value 3</option>
+            </select>
+        </p>
+        <p>
+            <input list="browsers" name="datalist">
+            <datalist id="browsers">
+                <option value="Chrome">
+                <option value="Firefox">
+                <option value="Internet Explorer">
+                <option value="Opera">
+                <option value="Safari">
+                <option value="Microsoft Edge">
+            </datalist>
+        </p>
+        <p>
+            <textarea name="textarea" rows="10" cols="50">Textarea</textarea>   
+        </p>
+        <p>
+            <progress name="progress" value="70" max="100">70 %</progress>
+        </p>
+        <p>
+            <meter name="meter" min="200" max="500" value="350">350 degrees</meter>
+        </p>
+        <p>
+            <input type="file" name="file">
+        </p>
+        <button type="submit" formenctype="application/x-www-form-urlencoded" formaction="/result" formmethod="post">Result</button>
+    </form>
+</body>
+</html>
